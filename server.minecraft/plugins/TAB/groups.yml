@@ -1,0 +1,17 @@
+system:
+  tabprefix: "%luckperms-prefix% &8| &f"
+  tagprefix: "%luckperms-prefix% &8| &f"
+admin:
+  tabprefix: "%luckperms-prefix% &8| &7"
+  tagprefix: "%luckperms-prefix% &8| &7"
+default:
+  tabprefix: "&7Spieler &8| &7"
+  tagprefix: "&7Spieler &8| &7"
+
+ # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
+_DEFAULT_:
+  tabprefix: "&7Spieler &8| &7"
+  tagprefix: "&7Spieler &8| &7"
+  customtabname: "%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"

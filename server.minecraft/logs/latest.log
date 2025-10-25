@@ -1,0 +1,130 @@
+[18:11:30] [ServerMain/INFO]: [bootstrap] Running Java 24 (Java HotSpot(TM) 64-Bit Server VM 24+36-3646; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[18:11:30] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) for Minecraft 1.21.4
+[18:11:31] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:11:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[18:11:32] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - DiscordSRV (1.30.1), GrimAC (2.3.72-326e200), LPC (3.6.0), LuckPerms (5.5.15), MiniMOTD (2.1.3), PlaceholderAPI (2.11.6), TAB (5.2.5)
+[18:11:38] [ServerMain/WARN]: resource-pack-id missing, using default of 6ec84639-1285-3bc9-8ddb-cf6922e31c97
+[18:11:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:11:40] [ServerMain/INFO]: Loaded 1370 recipes
+[18:11:40] [ServerMain/INFO]: Loaded 1481 advancements
+[18:11:40] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[18:11:41] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 297,1ms
+[18:11:41] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[18:11:41] [Server thread/INFO]: Loading properties
+[18:11:41] [Server thread/INFO]: This server is running Paper version 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[18:11:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:11:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:11:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:11:42] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[18:11:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[18:11:42] [Server thread/INFO]: Default game type: SURVIVAL
+[18:11:42] [Server thread/INFO]: Generating keypair
+[18:11:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:11:43] [Server thread/INFO]: Using default channel type
+[18:11:43] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:11:43] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:11:44] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.15
+[18:11:44] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:11:44] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[18:11:44] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
+[18:11:44] [Server thread/INFO]: [MiniMOTD] Loading server plugin MiniMOTD v2.1.3
+[18:11:44] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.0
+[18:11:44] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.72-326e200
+[18:11:44] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[18:11:46] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.30.1
+[18:11:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:11:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.15
+[18:11:46] [Server thread/INFO]:         __    
+[18:11:46] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.15
+[18:11:46] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:11:46] [Server thread/INFO]: 
+[18:11:46] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:11:47] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:11:47] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:11:47] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1569ms)
+[18:11:47] [Server thread/INFO]: Preparing level "world"
+[18:11:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:11:49] [Server thread/INFO]: Preparing spawn area: 0%
+[18:11:49] [Server thread/INFO]: Preparing spawn area: 0%
+[18:11:49] [Server thread/INFO]: Time elapsed: 985 ms
+[18:11:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:11:49] [Server thread/INFO]: Preparing spawn area: 0%
+[18:11:49] [Server thread/INFO]: Time elapsed: 85 ms
+[18:11:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:11:49] [Server thread/INFO]: Preparing spawn area: 0%
+[18:11:49] [Server thread/INFO]: Time elapsed: 60 ms
+[18:11:49] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[18:11:50] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[18:11:50] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
+[18:11:50] [Server thread/INFO]: [TAB] Enabled in 231ms
+[18:11:50] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.1.3
+[18:11:50] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
+[18:11:50] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.72-326e200
+[18:11:50] [Server thread/INFO]: [GrimAC] Registering packets...
+[18:11:50] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[18:11:50] [Server thread/INFO]: Grim Version: 2.3.72-326e200
+[18:11:50] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[18:11:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: grim [2.3.72-326e200]
+[18:11:50] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.30.1
+[18:11:50] [Server thread/WARN]: [DiscordSRV] Config key DiscordCannedResponses is missing from the config.yml. Using the default value of {!ip=deineserveradresse.net, !site=http://deineseite.net}
+[18:11:50] [Server thread/WARN]: [DiscordSRV] Config key ChannelUpdater is missing from the config.yml. Using the default value of [{ChannelId=0000000000000000, Format=%playercount% Spieler online, ShutdownFormat=Server ist offline, UpdateInterval=10}, {ChannelId=0000000000000000, Format=Aktueller TPS: %tps%, ShutdownFormat=Server ist offline, UpdateInterval=10}]
+[18:11:50] [Server thread/WARN]: [DiscordSRV] Config key ServerWatchdogMessage is missing from the messages.yml. Using the default value of <t:%timestamp%:R> %guildowner%, der Server hat in %timeout% Sekunden nicht geantwortet :fire::bangbang:
+[18:11:50] [Server thread/WARN]: [DiscordSRV] Config key DiscordChatChannelServerStartupMessage is missing from the messages.yml. Using the default value of :white_check_mark: **Server wurde gestartet**
+[18:11:50] [Server thread/WARN]: [DiscordSRV] Config key DiscordChatChannelServerShutdownMessage is missing from the messages.yml. Using the default value of :octagonal_sign: **Server wurde heruntergefahren**
+[18:11:51] [Server thread/INFO]: [spark] Starting background profiler...
+[18:11:51] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[18:11:51] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[18:11:51] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[18:11:51] [Server thread/INFO]: Done preparing level "world" (3.888s)
+[18:11:51] [Server thread/INFO]: Running delayed init tasks
+[18:11:51] [Server thread/INFO]: Done (21.793s)! For help, type "help"
+[18:11:52] [Craft Scheduler Thread - 1 - MiniMOTD/INFO]: [MiniMOTD] There is an update available for MiniMOTD!
+[18:11:52] [Craft Scheduler Thread - 1 - MiniMOTD/INFO]: [MiniMOTD] This server is running version v2.1.3, which is 7 versions outdated.
+[18:11:52] [Craft Scheduler Thread - 1 - MiniMOTD/INFO]: [MiniMOTD] Download the latest version, v2.2.1 from GitHub at the link below:
+[18:11:52] [Craft Scheduler Thread - 1 - MiniMOTD/INFO]: [MiniMOTD] https://github.com/jpenilla/MiniMOTD/releases/tag/v2.2.1
+[18:11:52] [pool-28-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (1cc66c00dd0d091057d8a04adf1cc0714d8391ad)
+[18:11:52] [Craft Scheduler Thread - 3 - GrimAC/INFO]: New GrimAC version found! Version 2.3.73-b69906f is available to be downloaded here: https://modrinth.com/plugin/grimac
+[18:11:52] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[18:11:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[18:11:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[18:11:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Konsolenkanal-ID ist ungültig, keine Konsolenausgabe Weiterleitung aktiv
+[18:11:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Aktiviere LuckPerms Verbindung
+[18:11:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Aktiviere PlaceholderAPI Verbindung
+[18:11:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: discordsrv [1.30.1]
+[18:11:54] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 2/2 guilds (0 cancelled)
+[18:11:59] [User Authenticator #0/INFO]: UUID of player MrSneakX is 0e7cbd53-9afa-495c-b07a-91c3477674be
+[18:12:02] [Server thread/INFO]: MrSneakX joined the game
+[18:12:02] [Server thread/INFO]: MrSneakX[/84.73.180.201:51943] logged in with entity id 91 at ([world]-494.8862073288357, 64.0, -161.84190244606597)
+[18:12:02] [Netty Server IO #2/INFO]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] Loading block mappings for V_1_21_4/17...
+[18:12:03] [Netty Server IO #2/INFO]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] Finished loading block mappings for V_1_21_4/17 in 264.8308ms
+[18:13:53] [Server thread/INFO]: MrSneakX issued server command: /gamemode spectator
+[18:13:53] [Server thread/INFO]: [MrSneakX: Set own game mode to Spectator Mode]
+[18:14:48] [Server thread/INFO]: MrSneakX issued server command: /seed
+[18:14:50] [Server thread/INFO]: MrSneakX issued server command: /seed
+[18:14:51] [Server thread/INFO]: MrSneakX issued server command: /seed
+[18:14:51] [Server thread/INFO]: MrSneakX issued server command: /seed
+[18:16:50] [Server thread/INFO]: MrSneakX issued server command: /gamemode creative
+[18:16:50] [Server thread/INFO]: [MrSneakX: Set own game mode to Creative Mode]
+[18:17:40] [Server thread/INFO]: MrSneakX issued server command: /tp -1024 ~ -176
+[18:17:40] [Server thread/INFO]: [MrSneakX: Teleported MrSneakX to -1023.500000, 68.928511, -175.500000]
+[18:17:41] [Server thread/INFO]: MrSneakX issued server command: /gamemode spectator
+[18:17:41] [Server thread/INFO]: [MrSneakX: Set own game mode to Spectator Mode]
+[18:18:08] [Server thread/INFO]: MrSneakX issued server command: /gamemode creative
+[18:18:08] [Server thread/INFO]: [MrSneakX: Set own game mode to Creative Mode]
+[18:19:48] [Server thread/INFO]: MrSneakX lost connection: Disconnected
+[18:19:48] [Server thread/INFO]: MrSneakX left the game
+[18:22:22] [User Authenticator #1/INFO]: UUID of player MrSneakX is 0e7cbd53-9afa-495c-b07a-91c3477674be
+[18:22:25] [Server thread/INFO]: MrSneakX joined the game
+[18:22:25] [Server thread/INFO]: MrSneakX[/84.73.180.201:29580] logged in with entity id 994 at ([world]-450.3989813605143, 87.38712825835253, -167.90944077064256)
+[18:22:39] [Server thread/INFO]: MrSneakX issued server command: /gamemode spectator
+[18:22:39] [Server thread/INFO]: [MrSneakX: Set own game mode to Spectator Mode]
+[18:22:45] [Server thread/INFO]: MrSneakX has made the advancement [Minecraft: Trial(s) Edition]
+[18:22:59] [Server thread/INFO]: MrSneakX issued server command: /gamemode creative
+[18:22:59] [Server thread/INFO]: [MrSneakX: Set own game mode to Creative Mode]
+[18:23:07] [Server thread/INFO]: MrSneakX issued server command: /lp user MrSneakX parent set admin
+[18:23:07] [luckperms-command-executor/INFO]: [LP] LOG > (MrSneakX) [U] (mrsneakx)
+[18:23:07] [luckperms-command-executor/INFO]: [LP] LOG > parent set admin
+[18:23:11] [Async Chat Thread - #2/INFO]: »
+Admin | MrSneakX » test
+»
