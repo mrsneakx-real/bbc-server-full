@@ -1,0 +1,180 @@
+2025-10-26 20:30:55.057840+01:00 database: flush
+com.ranull.graves.libraries.h2.message.DbException: (Message HY000 not found) [50000-240]
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.message.DbException.convert(DbException.java:407)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.handleException(MVStore.java:1675)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.panic(MVStore.java:502)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.<init>(MVStore.java:296)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.mvstore.MVStore$Builder.open(MVStore.java:2164)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.<init>(Store.java:133)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.engine.Database.<init>(Database.java:328)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.engine.Engine.openSession(Engine.java:92)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.engine.Engine.openSession(Engine.java:222)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.engine.Engine.createSession(Engine.java:201)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:350)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.Driver.connect(Driver.java:59)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.hikari.pool.PoolBase.newConnection(PoolBase.java:370)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:207)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.manager.DataManager.loadType(DataManager.java:421)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.manager.DataManager.<init>(DataManager.java:80)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.Graves.onEnable(Graves.java:125)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:658)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607)
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1151)
+	at org.bukkit.Bukkit.reload(Bukkit.java:1038)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82)
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450)
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357)
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347)
+	at net.minecraft.commands.Commands.performCommand(Commands.java:341)
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2215)
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2188)
+	at net.minecraft.server.TickTask.run(TickTask.java:18)
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448)
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428)
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422)
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379)
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264)
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message HY000 not found) [50000-240]
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 61 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: The file is locked: C:/Users/micha/Github/BBC-Server/bbc-server-full/server.minecraft/plugins/GravesX/data/graves.data.mv.db [2.4.240/7]
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:137)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	... 55 more
+Caused by: java.nio.channels.OverlappingFileLockException
+	at java.base/sun.nio.ch.FileLockTable.checkList(FileLockTable.java:229)
+	at java.base/sun.nio.ch.FileLockTable.add(FileLockTable.java:123)
+	at java.base/sun.nio.ch.FileChannelImpl.tryLock(FileChannelImpl.java:1773)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:135)
+	... 58 more
+2025-10-26 20:49:09.067889+01:00 database: could not close the database
+java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:793)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:287)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:504)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:459)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:209)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-4.9.9.4.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+2025-10-26 20:49:55.603152+01:00 jdbc[4]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S01 not found); SQL statement:
+CREATE TABLE block (location VARCHAR(255),
+uuid_grave VARCHAR(255),
+replace_material VARCHAR(255),
+replace_data TEXT) [42101-232]
+2025-10-26 21:11:24.908495+01:00 jdbc[5]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S01 not found); SQL statement:
+CREATE TABLE block (location VARCHAR(255),
+uuid_grave VARCHAR(255),
+replace_material VARCHAR(255),
+replace_data TEXT) [42101-232]
+2025-10-26 21:13:43.198650+01:00 jdbc[3]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S01 not found); SQL statement:
+CREATE TABLE block (location VARCHAR(255),
+uuid_grave VARCHAR(255),
+replace_material VARCHAR(255),
+replace_data TEXT) [42101-232]
+2025-10-26 21:15:16.767058+01:00 jdbc[5]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S01 not found); SQL statement:
+CREATE TABLE block (location VARCHAR(255),
+uuid_grave VARCHAR(255),
+replace_material VARCHAR(255),
+replace_data TEXT) [42101-232]
+2025-10-26 21:17:38.656476+01:00 jdbc[3]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S01 not found); SQL statement:
+CREATE TABLE block (location VARCHAR(255),
+uuid_grave VARCHAR(255),
+replace_material VARCHAR(255),
+replace_data TEXT) [42101-232]
+2025-10-26 21:19:27.382979+01:00 jdbc[5]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S01 not found); SQL statement:
+CREATE TABLE block (location VARCHAR(255),
+uuid_grave VARCHAR(255),
+replace_material VARCHAR(255),
+replace_data TEXT) [42101-232]
+2025-10-26 21:30:25.605740+01:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-232]
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:374)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1292)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1254)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1173)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1158)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-232]
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.3.232/3]
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:926)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:890)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:693)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:643)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:364)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1893)
+	at GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:922)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:793)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:287)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:504)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:459)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more

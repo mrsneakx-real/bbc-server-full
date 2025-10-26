@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 84.73.180.201
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761510622507
+  login: 1761510438654
+money: '101.0'
+last-account-name: MrSneakX
+logoutlocation:
+  world: 0faa0e61-6d8f-4625-9c7e-e23477e304ee
+  world-name: world
+  x: -51.1055118347156
+  y: 63.53873534840179
+  z: -206.9588500890132
+  yaw: -15.843093872070312
+  pitch: 21.448665618896484

@@ -1,1 +1,1 @@
-java -Xms2G -Xmx4G -jar paper-1.21.4.jar log nogui
+java -Xms2G -Xmx4G -jar paper-1.21.10-89.jar log nogui
